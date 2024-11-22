@@ -47,6 +47,45 @@ Tasky Wallet is a React-based application designed to help users manage their pe
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/tasky-wallet.git
+git clone https://github.com/MahmoudAlGohry/camelCaseTask.git
 cd tasky-wallet
 ```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run the Application
+
+### To start the development server, run:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+- **src/components**: Contains reusable components, including the Home, Sign In, Dashboard, NavBar, and Loading components.
+- **src/data**: Includes a mock user JSON file to simulate backend data.
+
+## Usage
+
+- **Home Page**: Learn more about what Tasky Wallet offers.
+- **Sign In**: Authenticate using the provided mock user credentials. -**Dashboard**: Manage finances, including adding or withdrawing funds, viewing transaction history, and tracking reward progress.
+
+## Dependencies
+
+- **react**: ^18.3.1
+- **react-dom**: ^18.3.1
+- **react-router-dom**: ^6.28.0
+- **react-toastify**: ^10.0.6
+- **tailwindcss**: ^3.4.15
+- **vite**: ^5.4.10
+
+## Future Improvements
+
+- **Backend Integration**: Add a backend API for persistent data storage.
+- **User Registration**: Allow users to register and manage their credentials securely.
+- **Responsive Design**: Enhance mobile and tablet responsiveness.
