@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Mahmoud Tarek",
+    "username": "mahmoud12",
+    "email": "mahmoud@example.com",
+    "password": "123",
+    "balance": 0,
+    "totalAdded": 0,
+    "transactions": []
+  },
+  {
+    "id": 2,
+    "name": "Ahmed Tarek",
+    "username": "ahmed12",
+    "email": "ahmed@example.com",
+    "password": "123",
+    "balance": 0,
+    "totalAdded": 0,
+    "transactions": []
+  }
+]

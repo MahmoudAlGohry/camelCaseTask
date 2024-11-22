@@ -1,0 +1,22 @@
+/* root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+} */
+
+.logoTitle {
+  @apply text-7xl  font-extrabold text-green-400;
+}
+
+.homeContainer {
+  @apply flex flex-col gap-7 w-full items-center align-middle mx-0 my-auto justify-center h-96;
+}
+
+.SignInBtn {
+  @apply text-white bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-base px-5 py-2.5 text-center me-2 mb-2;
+}
+
+.dashBoardBtn {
+  @apply text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-base px-5 py-2.5 text-center me-2 mb-2;
+}
