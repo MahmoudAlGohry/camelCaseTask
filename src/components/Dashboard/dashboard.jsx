@@ -4,7 +4,6 @@ import style from "./dashboard.module.css";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
-
 function Dashboard() {
   const [user, setUser] = useState(null);
   const [amount, setAmount] = useState(0);
@@ -15,7 +14,7 @@ function Dashboard() {
   const [showGamificationModal, setShowGamificationModal] = useState(false);
   const [progress, setProgress] = useState({ milestone100: 0, milestone500: 0, milestone1000: 0 });
 
-  // Load current user from localStorage when the component mounts
+  // get current user from localStorage 
   useEffect(() => {
     const storedUser = localStorage.getItem("currentUser");
     if (storedUser) {
@@ -26,7 +25,7 @@ function Dashboard() {
     }
   }, []);
 
-  // Update progress for gamification milestones
+  // Update progress for gamification 
   const updateProgress = (totalAdded) => {
     const milestone100 = Math.max(Math.min((totalAdded / 100) * 100, 100), 0);
     const milestone500 = Math.max(Math.min(((totalAdded - 100) / 400) * 100, 100), 0);
@@ -276,8 +275,7 @@ function Dashboard() {
                     <span className="text-sm text-gray-400">{transaction.date}</span>
 
                     <button
-                      className="ml-4 text-white bg-yellow-400 hover:bg-yellow-700 dark:bg-yellow-500  font-medium 
-                            rounded-lg text-sm px-5 py-2.5 text-center"
+                      className="ml-4 text-white bg-yellow-400 hover:bg-yellow-700 dark:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                       onClick={() => handleEditTransaction(index)}
                     >
                       Edit
@@ -327,11 +325,9 @@ function Dashboard() {
                     <li className="mb-2">Add $100 to the wallet: reward $5 bonus funds (One-time reward per Account).</li>
                     <li className="mb-2">Add $500 to the wallet: reward $20 bonus funds (One-time reward per Account).</li>
                     <li className="mb-2">Add $1000 to the wallet: reward $50 bonus funds (One-time reward per Account).</li>
-
                   </ul>
                   <p className="mb-2 text-red-700 text-md font-semibold">
-                    <span className="text-xl font-bold">Caution:</span> that each reward is given only once, and rewards must be claimed in order. Even if you add $1,000 in one transaction, you will need to unlock each reward step-by-step.
-
+                    <span className="text-xl font-bold">Caution:</span> Each reward is given only once, and rewards must be claimed in order. Even if you add $1,000 in one transaction, you will need to unlock each reward step-by-step.
                   </p>
                   <p className="mt-4 text-sm text-gray-400">Note: Each reward can only be claimed once per Account.</p>
                 </div>
@@ -352,7 +348,6 @@ function Dashboard() {
       )}
 
       <ToastContainer />
-
     </>
   );
 }
