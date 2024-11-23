@@ -64,6 +64,16 @@ npm install
 ```bash
 npm run dev
 ```
+## Testing User:
+### first user:
+#### username:
+```bash
+mahmoud12
+```
+#### password:
+```bash
+123
+```
 
 ## Project Structure
 
