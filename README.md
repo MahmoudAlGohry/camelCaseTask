@@ -48,7 +48,7 @@ Tasky Wallet is a React-based application designed to help users manage their pe
 
 ```bash
 git clone https://github.com/MahmoudAlGohry/camelCaseTask.git
-cd tasky-wallet
+cd taskywallet
 ```
 
 ## Install Dependencies
