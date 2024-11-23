@@ -65,10 +65,19 @@ npm install
 npm run dev
 ```
 ## Testing User:
-### first user:
-#### username:
+- **First user**:
+#### Username:
 ```bash
 mahmoud12
+```
+#### password:
+```bash
+123
+```
+- ** Second user**:
+#### Username:
+```bash
+ahmed12
 ```
 #### password:
 ```bash
