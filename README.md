@@ -1,7 +1,8 @@
 # Tasky Wallet - Personal Finance Companion
 
-<!-- ![logo](./src/assets/logo.png)<img width="200" height="100"> -->
-<img src="./src/assets/logo.png" alt="logo" width="200" height="100">
+<div align="center">
+    <img src="./src/assets/logo.png" alt="logo" width="400" height="400">
+</div>
 
 Tasky Wallet is a React-based application designed to help users manage their personal finances easily. It features a user-friendly interface where users can add or withdraw funds, view transaction history, and track progress towards financial milestones with a gamified reward system.
 
